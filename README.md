@@ -28,10 +28,10 @@ Windows
 Ejecutar: huffman.exe
 
 ## Ejecución paso a paso
-1. Abrir una terminal.
+1. Abrir una terminal o powershell.
 2. Navegar hasta la carpeta del proyecto.
-3. Compilar el código fuente: ghc Main.hs -o huffman
-4. Ejecutar el programa: Linux/macOS: ./huffman -- Windows: huffman.exe
+3. Compilar el código fuente con la siguiente instrucción: ghc -o huffman Huffman.hs
+4. Ejecutar el código del programa: Linux/macOS: ./huffman -- Windows: .\huffman.exe
 5. Observar los resultados generados para cada caso de prueba.
 
 ## Casos de prueba incluidos
